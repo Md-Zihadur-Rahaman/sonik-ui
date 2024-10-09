@@ -4,10 +4,10 @@ import downloadIcon from '../../assets/DownloadIcon.svg'
 
 const Header = () => {
   return (
-    <div className='header-bg'>
+    <div className='w-full header-bg'>
       {/* container section */}
       <section
-        className='max-w-7xl mx-auto flex
+        className='w-full max-w-7xl mx-auto flex
        flex-col justify-around h-[100vh]'
       >
         {/* icon section */}

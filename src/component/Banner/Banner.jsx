@@ -18,9 +18,9 @@ import App from '../../App'
 
 const Banner = () => {
   return (
-    <div className='bg-black/90 banner-bg  pt-16 md:pt-[261px] pb-[90.96px] '>
+    <div className='bg-black/90 w-full banner-bg  pt-16 md:pt-[261px] pb-[90.96px] '>
       {/* main banner section */}
-      <section className='max-w-6xl mx-auto flex flex-col-reverse md:flex-row gap-36 md:gap-20'>
+      <section className='w-full max-w-6xl mx-auto flex flex-col-reverse md:flex-row gap-36 md:gap-20'>
         {/* left section */}
         <aside className='w-full md:w-1/2 relative bg-black rounded-[27.29px] p-4 md:pt-[40px] md:pb-[90px] md:pl-[47px] md:pr-[159px]'>
           <figure

@@ -1,0 +1,31 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.header-bg {
+  background-image: url('../src/assets/BannerImage.svg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+}
+
+.banner-bg {
+  background-image: url('../src/assets/body-bg.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.footer-bg {
+  background-image: url('../src/assets/footer.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
